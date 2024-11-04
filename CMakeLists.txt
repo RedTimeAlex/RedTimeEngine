@@ -10,8 +10,6 @@ project(
 
 option(BUILD_SHARED_LIBS "Build shared or static library. If ON, build shared." ON)
 
-include(GNUInstallDirs)
-
 #set output directs
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
